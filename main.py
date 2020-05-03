@@ -45,7 +45,7 @@ def get_id(text):
     """
     Extract id from the text message
 
-    NOTE: id must be six digits to be selected change regex if you may to change it
+    NOTE: id must be six digits to be selected edit regex if you need to change it
     """
     try:
         regex = '[0-9][0-9][0-9] [0-9][0-9][0-9] [0-9][0-9][0-9][0-9]'
@@ -60,7 +60,7 @@ def get_pass(text):
     """
     Extract password from the text message
 
-    NOTE: password must be six digits to be selected change regex if you may to change it
+    NOTE: password must be six digits to be selected edit regex if you need to change it
     """
     try:
         regex = 'Password: [0-9 A-Z a-z][0-9 A-Z a-z][0-9 A-Z a-z][0-9 A-Z a-z][0-9 A-Z a-z][0-9 A-Z a-z]'
