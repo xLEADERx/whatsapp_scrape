@@ -35,7 +35,7 @@ for item in container:
 
 def performClick(*args):
     for arg in args:
-        if CHAT_NAME in arg.text: #change this to your Group Name
+        if CHAT_NAME in arg.text:
             arg.click()
             return 'OK'
     return None
